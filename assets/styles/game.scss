@@ -1,0 +1,40 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: $textColorPrimary;
+  font-size: $fontSizeBase;
+  background: white;
+  background-size: cover;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: 2px solid $buttonOutlineColor;
+  }
+}
+
+.GameButton {
+  padding: 1rem;
+  font-family: $fontPrimary;
+  font-size: 1.4rem;
+  color: $textColorPrimary;
+  background: $bgColorSecondary;
+  border: none;
+
+  transition: background .1s ease-in;
+
+  &:hover {
+    background: darken($bgColorSecondary, 10%);
+  }
+  &:focus {
+    outline: none;
+  }
+}

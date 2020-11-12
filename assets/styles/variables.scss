@@ -1,0 +1,14 @@
+// Объявление использующихся переменных
+
+$bgColorPrimary: #b090bd;
+$bgColorSecondary:#e2dee9;
+$textColorPrimary: #5d5174;
+
+$fontPrimary: 'Roboto', sans-serif;
+$fontSecondary: 'Ubuntu', sans-serif;
+$fontSizeBase: 16px;
+
+$gameFieldBg:  $bgColorPrimary;
+$gameTileBg: $bgColorSecondary;
+
+$buttonOutlineColor: lighten(#272121, 10%);
